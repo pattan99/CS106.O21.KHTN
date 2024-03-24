@@ -156,11 +156,7 @@ def depthFirstSearch(gameState):
     temp = []
     while frontier:
         node = frontier.pop()
-        # print(node)
-        # if len(node) > 2:
-        #     break
         node_action = actions.pop()
-        # print(node_action)
         if isEndState(node[-1][-1]):
             temp += node_action[1:]
             break
@@ -170,9 +166,8 @@ def depthFirstSearch(gameState):
                 newPosPlayer, newPosBox = updateState(node[-1][0], node[-1][1], action)
                 if isFailed(newPosBox):
                     continue
-                frontier.append([(newPosPlayer, newPosBox)])
+                frontier.append(node + [(newPosPlayer, newPosBox)])
                 actions.append(node_action + [action[-1]])
-    print(len(temp))
     return temp
 
 def breadthFirstSearch(gameState):
@@ -228,6 +223,9 @@ def cost(actions):
 
 def uniformCostSearch(gameState):
     """Implement uniformCostSearch approach"""
+    start =  time.time()
+    numNode = 1
+
     beginBox = PosOfBoxes(gameState)
     beginPlayer = PosOfPlayer(gameState)
 
@@ -270,10 +268,72 @@ def uniformCostSearch(gameState):
                 if isFailed(newPosBox):
                     continue
 
+                numNode += 1
                 # Thêm trạng thái mới với cost được tính từ chuỗi hành động từ trạng thái bắt đầu đến trạng thái hiện tại.
                 frontier.push([(newPosPlayer, newPosBox)], cost(node_action[1:] + [action[-1]]))
                 actions.push(node_action + [action[-1]], cost(node_action[1:] + [action[-1]]))
-    print(len(temp))
+    end =  time.time()
+    print(f'Time: {end - start}')
+    print(f'Number of node: {numNode}')
+    print(f'Step: {len(temp)}')
+    return temp
+
+def heuristic(posPlayer, posBox):
+    # print(posPlayer, posBox)
+    """A heuristic function to calculate the overall distance between the else boxes and the else goals"""
+    distance = 0
+    completes = set(posGoals) & set(posBox)
+    sortposBox = list(set(posBox).difference(completes))
+    sortposGoals = list(set(posGoals).difference(completes))
+    for i in range(len(sortposBox)):
+        distance += (abs(sortposBox[i][0] - sortposGoals[i][0])) + (abs(sortposBox[i][1] - sortposGoals[i][1]))
+    return distance
+
+def aStarSearch(gameState):
+    """Implement aStarSearch approach"""
+    start =  time.time()
+    numNode = 1
+    beginBox = PosOfBoxes(gameState)
+    beginPlayer = PosOfPlayer(gameState)
+    temp = []
+    start_state = (beginPlayer, beginBox)
+    frontier = PriorityQueue()
+    frontier.push([start_state], heuristic(beginPlayer, beginBox))
+    exploredSet = set()
+    actions = PriorityQueue()
+    actions.push([0], heuristic(beginPlayer, start_state[1]))
+    while len(frontier.Heap) > 0:
+        node = frontier.pop()
+        node_action = actions.pop()
+        if isEndState(node[-1][-1]):
+            temp += node_action[1:]
+            break
+
+        if node[-1] not in exploredSet:
+            # Thêm node hiện tại vào tập đóng
+            exploredSet.add(node[-1])
+
+            # Mở rộng node đang xét với các hành động hợp lệ với trạng thái hiện tại
+            for action in legalActions(node[-1][0], node[-1][1]):
+                # Cập nhật trạng thái với hành động tương ứng
+                newPosPlayer, newPosBox = updateState(node[-1][0], node[-1][1], action)
+
+                # Kiểm tra xem trạng thái này có thể chơi tiếp được hay không
+                # - nếu không thể chơi tiếp thì không thêm node này vào hàng đợi
+                if isFailed(newPosBox):
+                    continue
+
+                numNode += 1
+
+                # f = g + h
+                value = len(node_action[1:] + [action[-1]]) + heuristic(newPosPlayer, newPosBox)
+                # Thêm trạng thái mới với giá trị được tính ở phía trên
+                frontier.push([(newPosPlayer, newPosBox)], value)
+                actions.push(node_action + [action[-1]], value)
+    end =  time.time()
+    print(f'Time: {end - start}')
+    print(f'Number of node: {numNode}')
+    print(f'Step: {len(temp)}')
     return temp
 
 """Read command"""
@@ -307,9 +367,12 @@ def get_move(layout, player_pos, method):
         result = breadthFirstSearch(gameState)
     elif method == 'ucs':
         result = uniformCostSearch(gameState)
+    elif method == 'astar':
+        result = aStarSearch(gameState)        
     else:
         raise ValueError('Invalid method.')
     time_end=time.time()
     print('Runtime of %s: %.2f second.' %(method, time_end-time_start))
     print(result)
+    print('')
     return result
