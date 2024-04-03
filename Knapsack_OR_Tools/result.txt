@@ -1,0 +1,520 @@
+*** 00Uncorrelated_n00050 ***
+Total value: 20995
+Total weight: 14721
+Is optimal: True
+
+*** 00Uncorrelated_n00100 ***
+Total value: 46537
+Total weight: 22519
+Is optimal: True
+
+*** 00Uncorrelated_n00200 ***
+Total value: 84317
+Total weight: 50302
+Is optimal: True
+
+*** 00Uncorrelated_n00500 ***
+Total value: 207992
+Total weight: 118693
+Is optimal: True
+
+*** 00Uncorrelated_n01000 ***
+Total value: 400811
+Total weight: 252480
+Is optimal: True
+
+*** 00Uncorrelated_n02000 ***
+Total value: 808902
+Total weight: 502731
+Is optimal: True
+
+*** 00Uncorrelated_n05000 ***
+Total value: 2041002
+Total weight: 1231707
+Is optimal: True
+
+*** 00Uncorrelated_n10000 ***
+Total value: 4052367
+Total weight: 2478760
+Is optimal: True
+
+*** 01WeaklyCorrelated_n00050 ***
+Total value: 15768
+Total weight: 14232
+Is optimal: True
+
+*** 01WeaklyCorrelated_n00100 ***
+Total value: 31064
+Total weight: 29013
+Is optimal: True
+
+*** 01WeaklyCorrelated_n00200 ***
+Total value: 56976
+Total weight: 51563
+Is optimal: True
+
+*** 01WeaklyCorrelated_n00500 ***
+Total value: 139258
+Total weight: 127276
+Is optimal: True
+
+*** 01WeaklyCorrelated_n01000 ***
+Total value: 273052
+Total weight: 245972
+Is optimal: True
+
+*** 01WeaklyCorrelated_n02000 ***
+Total value: 552506
+Total weight: 498452
+Is optimal: True
+
+*** 01WeaklyCorrelated_n05000 ***
+Total value: 1378225
+Total weight: 1249257
+Is optimal: True
+
+*** 01WeaklyCorrelated_n10000 ***
+Total value: 2743167
+Total weight: 2480964
+Is optimal: True
+
+*** 02StronglyCorrelated_n00050 ***
+Total value: 17539
+Total weight: 14239
+Is optimal: True
+
+*** 02StronglyCorrelated_n00100 ***
+Total value: 35617
+Total weight: 29017
+Is optimal: True
+
+*** 02StronglyCorrelated_n00200 ***
+Total value: 65363
+Total weight: 51563
+Is optimal: False
+
+*** 02StronglyCorrelated_n00500 ***
+Total value: 162178
+Total weight: 127278
+Is optimal: False
+
+*** 02StronglyCorrelated_n01000 ***
+Total value: 316372
+Total weight: 245972
+Is optimal: False
+
+*** 02StronglyCorrelated_n02000 ***
+Total value: 638545
+Total weight: 498045
+Is optimal: False
+
+*** 02StronglyCorrelated_n05000 ***
+Total value: 1599288
+Total weight: 1248688
+Is optimal: False
+
+*** 02StronglyCorrelated_n10000 ***
+Total value: 3182769
+Total weight: 2480569
+Is optimal: False
+
+*** 03InverseStronglyCorrelated_n00050 ***
+Total value: 14914
+Total weight: 16714
+Is optimal: True
+
+*** 03InverseStronglyCorrelated_n00100 ***
+Total value: 30468
+Total weight: 33968
+Is optimal: True
+
+*** 03InverseStronglyCorrelated_n00200 ***
+Total value: 54964
+Total weight: 61464
+Is optimal: True
+
+*** 03InverseStronglyCorrelated_n00500 ***
+Total value: 136031
+Total weight: 152031
+Is optimal: False
+
+*** 03InverseStronglyCorrelated_n01000 ***
+Total value: 263977
+Total weight: 295477
+Is optimal: False
+
+*** 03InverseStronglyCorrelated_n02000 ***
+Total value: 534014
+Total weight: 597114
+Is optimal: False
+
+*** 03InverseStronglyCorrelated_n05000 ***
+Total value: 1338091
+Total weight: 1496591
+Is optimal: False
+
+*** 03InverseStronglyCorrelated_n10000 ***
+Total value: 2659258
+Total weight: 2975558
+Is optimal: False
+
+*** 04AlmostStronglyCorrelated_n00050 ***
+Total value: 17556
+Total weight: 14238
+Is optimal: True
+
+*** 04AlmostStronglyCorrelated_n00100 ***
+Total value: 35611
+Total weight: 29016
+Is optimal: True
+
+*** 04AlmostStronglyCorrelated_n00200 ***
+Total value: 65385
+Total weight: 51563
+Is optimal: False
+
+*** 04AlmostStronglyCorrelated_n00500 ***
+Total value: 162154
+Total weight: 127278
+Is optimal: False
+
+*** 04AlmostStronglyCorrelated_n01000 ***
+Total value: 316415
+Total weight: 245972
+Is optimal: True
+
+*** 04AlmostStronglyCorrelated_n02000 ***
+Total value: 638771
+Total weight: 498200
+Is optimal: False
+
+*** 04AlmostStronglyCorrelated_n05000 ***
+Total value: 1599768
+Total weight: 1249050
+Is optimal: False
+
+*** 04AlmostStronglyCorrelated_n10000 ***
+Total value: 3183263
+Total weight: 2480964
+Is optimal: False
+
+*** 05SubsetSum_n00050 ***
+Total value: 14239
+Total weight: 14239
+Is optimal: True
+
+*** 05SubsetSum_n00100 ***
+Total value: 29017
+Total weight: 29017
+Is optimal: True
+
+*** 05SubsetSum_n00200 ***
+Total value: 51563
+Total weight: 51563
+Is optimal: True
+
+*** 05SubsetSum_n00500 ***
+Total value: 127278
+Total weight: 127278
+Is optimal: True
+
+*** 05SubsetSum_n01000 ***
+Total value: 245972
+Total weight: 245972
+Is optimal: True
+
+*** 05SubsetSum_n02000 ***
+Total value: 498452
+Total weight: 498452
+Is optimal: True
+
+*** 05SubsetSum_n05000 ***
+Total value: 1249257
+Total weight: 1249257
+Is optimal: True
+
+*** 05SubsetSum_n10000 ***
+Total value: 2480964
+Total weight: 2480964
+Is optimal: True
+
+*** 06UncorrelatedWithSimilarWeights_n00050 ***
+Total value: 19676
+Total weight: 2401482
+Is optimal: True
+
+*** 06UncorrelatedWithSimilarWeights_n00100 ***
+Total value: 39791
+Total weight: 4902253
+Is optimal: True
+
+*** 06UncorrelatedWithSimilarWeights_n00200 ***
+Total value: 75678
+Total weight: 9904900
+Is optimal: True
+
+*** 06UncorrelatedWithSimilarWeights_n00500 ***
+Total value: 189769
+Total weight: 24712055
+Is optimal: False
+
+*** 06UncorrelatedWithSimilarWeights_n01000 ***
+Total value: 371246
+Total weight: 49525319
+Is optimal: True
+
+*** 06UncorrelatedWithSimilarWeights_n02000 ***
+Total value: 748457
+Total weight: 99050305
+Is optimal: False
+
+*** 06UncorrelatedWithSimilarWeights_n05000 ***
+Total value: 1872056
+Total weight: 247621933
+Is optimal: False
+
+*** 06UncorrelatedWithSimilarWeights_n10000 ***
+Total value: 3724841
+Total weight: 495247236
+Is optimal: False
+
+*** 07SpannerUncorrelated_n00050 ***
+Total value: 13472
+Total weight: 4569
+Is optimal: True
+
+*** 07SpannerUncorrelated_n00100 ***
+Total value: 24228
+Total weight: 8748
+Is optimal: False
+
+*** 07SpannerUncorrelated_n00200 ***
+Total value: 47836
+Total weight: 17274
+Is optimal: False
+
+*** 07SpannerUncorrelated_n00500 ***
+Total value: 114616
+Total weight: 42898
+Is optimal: False
+
+*** 07SpannerUncorrelated_n01000 ***
+Total value: 228624
+Total weight: 84656
+Is optimal: False
+
+*** 07SpannerUncorrelated_n02000 ***
+Total value: 459560
+Total weight: 168004
+Is optimal: False
+
+*** 07SpannerUncorrelated_n05000 ***
+Total value: 1131684
+Total weight: 413019
+Is optimal: False
+
+*** 07SpannerUncorrelated_n10000 ***
+Total value: 2283100
+Total weight: 834925
+Is optimal: False
+
+*** 08SpannerWeaklyCorrelated_n00050 ***
+Total value: 10354
+Total weight: 11452
+Is optimal: True
+
+*** 08SpannerWeaklyCorrelated_n00100 ***
+Total value: 20550
+Total weight: 20824
+Is optimal: True
+
+*** 08SpannerWeaklyCorrelated_n00200 ***
+Total value: 40575
+Total weight: 41116
+Is optimal: True
+
+*** 08SpannerWeaklyCorrelated_n00500 ***
+Total value: 98713
+Total weight: 100076
+Is optimal: False
+
+*** 08SpannerWeaklyCorrelated_n01000 ***
+Total value: 196050
+Total weight: 198664
+Is optimal: False
+
+*** 08SpannerWeaklyCorrelated_n02000 ***
+Total value: 391950
+Total weight: 397176
+Is optimal: False
+
+*** 08SpannerWeaklyCorrelated_n05000 ***
+Total value: 964500
+Total weight: 977360
+Is optimal: False
+
+*** 08SpannerWeaklyCorrelated_n10000 ***
+Total value: 1947450
+Total weight: 1973416
+Is optimal: False
+
+*** 09SpannerStronglyCorrelated_n00050 ***
+Total value: 28440
+Total weight: 11540
+Is optimal: False
+
+*** 09SpannerStronglyCorrelated_n00100 ***
+Total value: 51656
+Total weight: 20956
+Is optimal: True
+
+*** 09SpannerStronglyCorrelated_n00200 ***
+Total value: 101888
+Total weight: 41288
+Is optimal: False
+
+*** 09SpannerStronglyCorrelated_n00500 ***
+Total value: 245128
+Total weight: 99928
+Is optimal: False
+
+*** 09SpannerStronglyCorrelated_n01000 ***
+Total value: 488672
+Total weight: 198772
+Is optimal: False
+
+*** 09SpannerStronglyCorrelated_n02000 ***
+Total value: 979064
+Total weight: 397264
+Is optimal: False
+
+*** 09SpannerStronglyCorrelated_n05000 ***
+Total value: 2409352
+Total weight: 977252
+Is optimal: False
+
+*** 09SpannerStronglyCorrelated_n10000 ***
+Total value: 4863248
+Total weight: 1973348
+Is optimal: False
+
+*** 10MultipleStronglyCorrelated_n00050 ***
+Total value: 21338
+Total weight: 14238
+Is optimal: True
+
+*** 10MultipleStronglyCorrelated_n00100 ***
+Total value: 43316
+Total weight: 29016
+Is optimal: True
+
+*** 10MultipleStronglyCorrelated_n00200 ***
+Total value: 81658
+Total weight: 51558
+Is optimal: True
+
+*** 10MultipleStronglyCorrelated_n00500 ***
+Total value: 203778
+Total weight: 127278
+Is optimal: False
+
+*** 10MultipleStronglyCorrelated_n01000 ***
+Total value: 399170
+Total weight: 245970
+Is optimal: False
+
+*** 10MultipleStronglyCorrelated_n02000 ***
+Total value: 806150
+Total weight: 498450
+Is optimal: False
+
+*** 10MultipleStronglyCorrelated_n05000 ***
+Total value: 2019632
+Total weight: 1249132
+Is optimal: False
+
+*** 10MultipleStronglyCorrelated_n10000 ***
+Total value: 4019364
+Total weight: 2480964
+Is optimal: False
+
+*** 11ProfitCeiling_n00050 ***
+Total value: 14229
+Total weight: 14238
+Is optimal: True
+
+*** 11ProfitCeiling_n00100 ***
+Total value: 29001
+Total weight: 29015
+Is optimal: True
+
+*** 11ProfitCeiling_n00200 ***
+Total value: 51540
+Total weight: 51562
+Is optimal: False
+
+*** 11ProfitCeiling_n00500 ***
+Total value: 127239
+Total weight: 127277
+Is optimal: False
+
+*** 11ProfitCeiling_n01000 ***
+Total value: 245877
+Total weight: 245972
+Is optimal: False
+
+*** 11ProfitCeiling_n02000 ***
+Total value: 498255
+Total weight: 498450
+Is optimal: False
+
+*** 11ProfitCeiling_n05000 ***
+Total value: 1248798
+Total weight: 1249255
+Is optimal: False
+
+*** 11ProfitCeiling_n10000 ***
+Total value: 2479956
+Total weight: 2480964
+Is optimal: False
+
+*** 12Circle_n00050 ***
+Total value: 300031
+Total weight: 14239
+Is optimal: True
+
+*** 12Circle_n00100 ***
+Total value: 611418
+Total weight: 29017
+Is optimal: True
+
+*** 12Circle_n00200 ***
+Total value: 1086483
+Total weight: 51563
+Is optimal: False
+
+*** 12Circle_n00500 ***
+Total value: 2681868
+Total weight: 127278
+Is optimal: False
+
+*** 12Circle_n01000 ***
+Total value: 5182856
+Total weight: 245972
+Is optimal: True
+
+*** 12Circle_n02000 ***
+Total value: 10502842
+Total weight: 498452
+Is optimal: False
+
+*** 12Circle_n05000 ***
+Total value: 26323007
+Total weight: 1249257
+Is optimal: False
+
+*** 12Circle_n10000 ***
+Total value: 52276225
+Total weight: 2480964
+Is optimal: False
+
